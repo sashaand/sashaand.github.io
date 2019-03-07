@@ -324,10 +324,17 @@
 		<div class="container">
 			<h2 class="section-title">Задайте свой вопрос или оставьте отзыв о нашей работе</h2>
 
-			<!-- тут будет скрипт для отзывов, а пока картинка -->
-			<div class="comment-wrapper">
-				<img src="img/comment.png" alt="">
-			</div>
+			<div id="rcb-comments"></div>
+<script type="text/javascript">
+	RCB = window.RCB || []; RCB.push({widget:"Comments",id: 75138,});
+    (function() {
+        var RCBS = document.createElement("script");
+        RCBS.type = "text/javascript"; RCBS.async = true;
+        RCBS.src = "https://recobox.ru/widget/widget.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(RCBS, s.nextSibling);
+    })();
+</script>
 
 			
 		</div>
